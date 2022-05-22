@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["action"])){
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="mt-5">Update Record</h2>
-                    <p>Please edit the input values and submit to update the employee record.</p>
+                    <p>Please edit the input values and submit to update the employee records.</p>
                     <form action="" method="post">
                     <div class="form-group">
                             <label>CARD ID</label>
