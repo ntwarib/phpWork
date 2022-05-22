@@ -4,7 +4,7 @@ require_once "config.php";
 if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["action"])){
     if($_POST['action'] == 'insertRecord') {
         $card =$_POST['cardPd'];
-        echo "Success";
+        echo "Succeed";
         echo $card;
         $username="ange";
 $sql_u = "SELECT * FROM iot_users WHERE Username='$username'";
